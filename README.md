@@ -13,3 +13,4 @@ See `docs/` for setup instructions.
 - `dags/` — Airflow DAGs
 - `tests/` — unit and integration tests
 - `docs/` — documentation
+## Lecture 2 — Docker + Git workflow completed
