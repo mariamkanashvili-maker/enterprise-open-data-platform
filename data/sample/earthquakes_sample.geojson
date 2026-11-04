@@ -3,54 +3,21 @@
   "features": [
     {
       "type": "Feature",
-      "id": "us7000aaa1",
-      "properties": {
-        "mag": 3.1,
-        "place": "near Tbilisi, Georgia",
-        "time": 1787832000000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          44.75,
-          41.65,
-          8.2
-        ]
-      }
+      "id": "ge2026aaaa",
+      "properties": {"mag": 2.3, "place": "12km SW of Tbilisi, Georgia", "time": 1787832000000},
+      "geometry": {"type": "Point", "coordinates": [44.75, 41.65, 8.2]}
     },
     {
       "type": "Feature",
-      "id": "us7000aaa2",
-      "properties": {
-        "mag": 2.4,
-        "place": "near Gori, Georgia",
-        "time": 1787745600000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          44.11,
-          41.98,
-          10.0
-        ]
-      }
+      "id": "ge2026bbbb",
+      "properties": {"mag": 1.8, "place": "5km NE of Gori, Georgia", "time": 1787745600000},
+      "geometry": {"type": "Point", "coordinates": [44.13, 41.99, 5.4]}
     },
     {
       "type": "Feature",
-      "id": "us7000aaa3",
-      "properties": {
-        "mag": 4.0,
-        "place": "near Ambrolauri, Georgia",
-        "time": 1787659200000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          43.15,
-          42.52,
-          12.5
-        ]
-      }
+      "id": "ge2026cccc",
+      "properties": {"mag": 3.1, "place": "20km S of Kutaisi, Georgia", "time": 1787659200000},
+      "geometry": {"type": "Point", "coordinates": [42.70, 42.10, 12.0]}
     }
   ]
 }

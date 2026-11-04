@@ -80,5 +80,9 @@ if __name__ == "__main__":
     SAMPLE_DIR.mkdir(parents=True, exist_ok=True)
     print(f"[OK] {write_csv(SAMPLE_DIR / 'currency_rates_2026-08-27.csv', CURRENCY_ROWS)}")
     print(f"[OK] {build_weather_xml()}")
-    print(f"[OK] {build_earthquakes_geojson()}")
+    geo = SAMPLE_DIR / "earthquakes_sample.geojson"
+    if geo.exists():
+        print(f"[SKIP] {geo} უკვე არსებობს (წინა ლაბიდან)")
+    else:
+        print(f"[OK] {build_earthquakes_geojson()}")
     print(f"[OK] {write_csv(SAMPLE_DIR / 'currency_rates_2026-08-25_2026-08-27.csv', CURRENCY_MULTI_DAY_ROWS)}")
